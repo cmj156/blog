@@ -63,6 +63,10 @@ enableEmoji = true
     hiddenInList = false
     hiddenInSingle = false
 
+  [params.label]
+    icon = ""
+    text = "CMJ的技术博客"
+
 [menu]
   [[menu.main]]
     identifier = 'posts'
