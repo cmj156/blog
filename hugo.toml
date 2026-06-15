@@ -22,7 +22,16 @@ theme = 'PaperMod'
 
   [params.homeInfoParams]
     Title = '你好，我是 cmj156 👋'
-    Content = '嵌入式开发爱好者，记录 STM32、编程、技术折腾的日常。'
+    Content = '嵌入式开发爱好者 | STM32 | 编程学习笔记 | 技术折腾日常'
+
+  [params.profileMode]
+    enabled = true
+    title = '你好，我是 cmj156 👋'
+    subtitle = '嵌入式开发爱好者，喜欢用代码控制硬件，记录 STM32、编程、技术折腾的日常。'
+    imageUrl = 'https://avatars.githubusercontent.com/u/229704746'
+    imageTitle = 'cmj156'
+    imageWidth = 150
+    imageHeight = 150
 
   [[params.socialIcons]]
     name = 'github'
@@ -31,6 +40,16 @@ theme = 'PaperMod'
   [[params.socialIcons]]
     name = 'email'
     url = 'mailto:your-email@example.com'
+
+  [[params.homeInfoParams.buttons]]
+    name = '查看文章'
+    url = '/posts'
+    weight = 10
+
+  [[params.homeInfoParams.buttons]]
+    name = '关于我'
+    url = '/about'
+    weight = 20
 
   [params.cover]
     hidden = false
