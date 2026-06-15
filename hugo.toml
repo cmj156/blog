@@ -127,9 +127,9 @@ enableEmoji = true
 
   [params.Comments.giscus]
     repo = 'cmj156/blog'
-    repoId = ''
+    repoId = 'R_kgDOS6-iow'
     category = 'Announcements'
-    categoryId = ''
+    categoryId = 'DIC_kwDOS6-io84C_NOD'
     mapping = 'pathname'
     strict = false
     reactionsEnabled = true
