@@ -1,4 +1,4 @@
-baseURL = 'https://yourusername.github.io/blog/'
+baseURL = 'https://cmj156.github.io/blog/'
 languageCode = 'zh-cn'
 title = '我的技术博客'
 theme = 'PaperMod'
@@ -23,7 +23,7 @@ theme = 'PaperMod'
 
   [[params.socialIcons]]
     name = 'github'
-    url = 'https://github.com/yourusername'
+    url = 'https://github.com/cmj156'
 
 [menu]
   [[menu.main]]
