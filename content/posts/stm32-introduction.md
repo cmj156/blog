@@ -144,8 +144,3 @@ int main(void) {
 ## 总结
 
 STM32是嵌入式开发的理想选择。通过本文的学习，你已经了解了STM32的基础知识。继续实践，你会掌握更多高级功能！
-
----
-
-**上一篇**：[JavaScript入门](/posts/javascript-intro/)  
-**下一篇**：[FreeRTOS实时操作系统](/posts/freertos-intro/)

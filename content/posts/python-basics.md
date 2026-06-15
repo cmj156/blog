@@ -110,7 +110,3 @@ print(f"10 + 5 = {result}")
 
 Python是一门简单而强大的编程语言。通过本文的学习，你已经掌握了Python的基础语法。继续练习，你会成为Python高手！
 
----
-
-**上一篇**：[Git基础教程](/posts/git-basics/)  
-**下一篇**：[JavaScript入门](/posts/javascript-intro/)

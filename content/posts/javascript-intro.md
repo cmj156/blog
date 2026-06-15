@@ -144,7 +144,3 @@ async function getData() {
 
 JavaScript是Web开发的核心语言。通过本文的学习，你已经掌握了JavaScript的基础知识。继续实践，你会成为JavaScript专家！
 
----
-
-**上一篇**：[Python基础教程](/posts/python-basics/)  
-**下一篇**：[CSS布局技巧](/posts/css-layout/)
