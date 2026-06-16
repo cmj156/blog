@@ -1,6 +1,6 @@
 baseURL = 'https://pjjuihj.github.io/blog/'
 languageCode = 'zh-cn'
-title = 'CMJ的技术博客'
+    title = '普吉的技术博客'
 theme = 'PaperMod'
 
 enableInlineShortcodes = true
@@ -141,11 +141,11 @@ enableEmoji = true
     lazyLoading = false
 
 [params.SEO]
-  title = 'CMJ的技术博客'
-  description = '嵌入式开发、STM32、编程学习笔记和技术分享'
-  images = ['']
-  twitterSite = ''
-  twitterCreator = '@your_twitter'
+title = '普吉的技术博客'
+    description = '嵌入式开发、STM32、编程学习笔记和技术分享'
+    images = ['']
+    twitterSite = ''
+    twitterCreator = '@pjjuihj'
   type = 'website'
   locale = 'zh_CN'
   schema_type = 'Person'
