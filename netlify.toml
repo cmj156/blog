@@ -1,0 +1,24 @@
+[build]
+  command = "hugo --gc --minify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.163.1"
+  HUGO_ENVIRONMENT = "production"
+  TZ = "Asia/Shanghai"
+
+[context.production]
+  command = "hugo --gc --minify"
+
+[context.deploy-preview]
+  command = "hugo --gc --minify --buildFuture"
+
+[context.branch-deploy]
+  command = "hugo --gc --minify --buildFuture"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"

@@ -1,4 +1,4 @@
-baseURL = 'https://pjjuihj.github.io/blog/'
+baseURL = 'https://pujj-blog.netlify.app/'
 languageCode = 'zh-cn'
 title = 'pujj的技术博客'
 theme = 'PaperMod'
@@ -34,11 +34,11 @@ enableEmoji = true
 
   [[params.profileMode.buttons]]
     name = '查看文章'
-    url = '/blog/posts/'
+    url = '/posts/'
 
   [[params.profileMode.buttons]]
     name = '关于我'
-    url = '/blog/about/'
+    url = '/about/'
 
   [[params.socialIcons]]
     name = 'github'
