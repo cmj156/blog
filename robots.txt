@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://pjjuihj.github.io/blog/sitemap.xml
+Sitemap: https://pujj-blog.netlify.app/sitemap.xml
