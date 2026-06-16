@@ -1,4 +1,4 @@
-baseURL = 'https://cmj156.github.io/blog/'
+baseURL = 'https://pjjuihj.github.io/blog/'
 languageCode = 'zh-cn'
 title = 'CMJ的技术博客'
 theme = 'PaperMod'
@@ -8,7 +8,7 @@ enableRobotsTXT = true
 enableEmoji = true
 
 [params]
-  author = 'cmj156'
+  author = '普吉'
   description = '嵌入式开发 | STM32 | 编程学习笔记'
   defaultTheme = 'auto'
   ShowShareButtons = true
@@ -27,10 +27,10 @@ enableEmoji = true
 
   [params.profileMode]
     enabled = true
-    title = '你好，我是 cmj156 👋'
+    title = '你好，我是普吉 👋'
     subtitle = '嵌入式开发爱好者，喜欢用代码控制硬件，记录 STM32、编程、技术折腾的日常。'
-    imageUrl = 'https://avatars.githubusercontent.com/u/229704746'
-    imageTitle = 'cmj156'
+    imageUrl = 'https://avatars.githubusercontent.com/u/pjjuihj'
+    imageTitle = '普吉'
 
   [[params.profileMode.buttons]]
     name = '查看文章'
@@ -43,7 +43,7 @@ enableEmoji = true
   [[params.socialIcons]]
     name = 'github'
     title = 'GitHub'
-    url = 'https://github.com/cmj156'
+    url = 'https://github.com/pjjuihj'
 
   [[params.socialIcons]]
     name = 'email'
@@ -51,7 +51,7 @@ enableEmoji = true
     url = 'mailto:3386058487@qq.com'
 
   [params.editPost]
-    URL = 'https://github.com/cmj156/blog/edit/main/content'
+    URL = 'https://github.com/pjjuihj/blog/edit/main/content'
     Text = '在 GitHub 上编辑本页'
     appendFilePath = true
 
@@ -126,7 +126,7 @@ enableEmoji = true
   provider = 'giscus'
 
   [params.Comments.giscus]
-    repo = 'cmj156/blog'
+    repo = 'pjjuihj/blog'
     repoId = 'R_kgDOS6-iow'
     category = 'Announcements'
     categoryId = 'DIC_kwDOS6-io84C_NOD'
@@ -149,5 +149,5 @@ enableEmoji = true
   type = 'website'
   locale = 'zh_CN'
   schema_type = 'Person'
-  schema_name = 'cmj156'
-  schema_url = 'https://github.com/cmj156'
+  schema_name = '普吉'
+  schema_url = 'https://github.com/pjjuihj'

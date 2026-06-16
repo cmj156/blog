@@ -6,7 +6,7 @@ draft: false
 
 ## 你好 👋
 
-我是 **cmj156**，一个热爱嵌入式开发和编程的技术爱好者。
+我是 **pujj**，一个热爱嵌入式开发和编程的技术爱好者。
 
 ## 技术栈
 
@@ -30,5 +30,5 @@ draft: false
 
 ## 联系我
 
-- GitHub: [cmj156](https://github.com/cmj156)
+- GitHub: [pjjuihj](https://github.com/pjjuihj)
 - Email: 3386058487@qq.com
