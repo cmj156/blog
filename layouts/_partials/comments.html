@@ -1,26 +1,20 @@
 {{- if .Params.comments | default site.Params.comments }}
-<div id="giscus-container" style="min-height: 200px;">
+<div id="giscus-container" style="min-height: 200px; border: 1px solid #ccc; padding: 20px; margin-top: 2em;">
+  <h3>💬 评论区</h3>
   <script src="https://giscus.app/client.js"
-    data-repo="{{ site.Params.Comments.giscus.repo }}"
-    data-repo-id="{{ site.Params.Comments.giscus.repoId }}"
-    data-category="{{ site.Params.Comments.giscus.category }}"
-    data-category-id="{{ site.Params.Comments.giscus.categoryId }}"
-    data-mapping="{{ site.Params.Comments.giscus.mapping }}"
-    data-strict="{{ if site.Params.Comments.giscus.strict }}1{{ else }}0{{ end }}"
-    data-reactions-enabled="{{ if site.Params.Comments.giscus.reactionsEnabled }}1{{ else }}0{{ end }}"
-    data-emit-metadata="{{ site.Params.Comments.giscus.emitMetadata }}"
-    data-input-position="{{ site.Params.Comments.giscus.inputPosition }}"
-    data-theme="preferred_color_scheme"
-    data-lang="{{ site.Params.Comments.giscus.lang }}"
+    data-repo="cmj156/blog"
+    data-repo-id="R_kgDOS6-iow"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOS6-io84C_NOD"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="zh-CN"
     crossorigin="anonymous"
     async>
   </script>
 </div>
-<style>
-  #giscus-container {
-    margin-top: 2em;
-    padding-top: 2em;
-    border-top: 1px solid var(--code-border, #e5e7eb);
-  }
-</style>
 {{- end }}
